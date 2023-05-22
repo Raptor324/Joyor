@@ -236,3 +236,65 @@ body{
 .footer__contacts-img{
     margin-right: 10px;
 }
+
+@media (max-width: 1240px){
+    .scooter__inner{
+        flex-wrap: wrap;
+    }
+    .scooter__text{
+        max-width: 100%;
+    }
+    .scooter{
+        padding: 0;
+    }
+    .scooter__link{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 840px){
+    .menu{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 770px){
+    .header__inner{
+        display: block;
+        text-align: center;
+    }
+    .menu{
+        margin-top: 50px;
+    }
+    .menu__list{
+        justify-content: space-evenly;
+        padding-left: 0px;
+    }
+    .menu__item + .menu__item{
+        padding-left: 0;
+    }
+    .menu__link{
+        padding: 25px 20px;
+    }
+}
+
+@media (max-width: 460px){
+    .menu__list{
+        
+        justify-content: space-between;    
+    }
+    .menu__link{
+        padding: 25px 0px;
+        
+    }
+}
+
+@media (max-width: 350px){
+    .menu{
+        margin-top: 30px;
+    }
+    .menu__link{
+        font-size: 12px;
+    }
+
+}
